@@ -35,7 +35,8 @@ class ATM{
         System.out.println("Current Balance:"+balance);
     }
 }
-public class Task3 {
+public class ATMInterface
+    {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         ATM amount=new ATM(1000);
